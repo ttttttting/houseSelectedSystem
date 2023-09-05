@@ -1,0 +1,15 @@
+.city-header {
+  height: 40px;
+  line-height: 40px;
+  background-color: #ff5555;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  font-size: 15px;
+}
+.city-header .iconfont {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+/*# sourceMappingURL=./CommonHeader.css.map */

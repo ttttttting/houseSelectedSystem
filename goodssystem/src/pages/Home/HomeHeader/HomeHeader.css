@@ -1,0 +1,26 @@
+.home-header {
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ff5555;
+}
+.home-header .address-wrapper,
+.home-header .cart {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+.home-header .address {
+  width: 80px;
+}
+.home-header .address a {
+  text-decoration: none !important;
+}
+.home-header .cart-wrapper .cart i {
+  font-size: 20px !important;
+  padding-right: 10px;
+}
+.home-header .search {
+  flex: 1;
+}
+/*# sourceMappingURL=./HomeHeader.css.map */

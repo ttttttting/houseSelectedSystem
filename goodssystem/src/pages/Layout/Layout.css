@@ -1,0 +1,10 @@
+.wrapper {
+  position: relative;
+}
+.footer {
+  position: absolute;
+  top: 450px;
+  padding-top: 5px;
+  border-top: 0.01rem solid #ccc;
+}
+/*# sourceMappingURL=./Layout.css.map */

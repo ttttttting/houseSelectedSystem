@@ -1,0 +1,15 @@
+.mate-nav {
+  display: flex;
+  margin: 2px 0;
+  justify-content: space-around;
+}
+.mate-nav .mate-item {
+  border-radius: 4px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #ff5555;
+}
+/*# sourceMappingURL=./Home.css.map */

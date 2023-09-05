@@ -1,0 +1,18 @@
+@media(min-width:750px){
+    html{
+    font-size: 100px;
+    }
+}
+
+body{
+    background-color: #ffffff;
+    border: 1px solid #333;
+    width: 320px;
+    height: 500px;
+    color: #333;
+    font-family: '微软雅黑',Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    max-width: 750px;
+    margin: 20px auto;
+}

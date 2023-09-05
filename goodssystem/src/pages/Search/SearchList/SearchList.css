@@ -1,0 +1,41 @@
+.house .house-title {
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 10px;
+  margin: 10px auto;
+}
+.house .house-list {
+  padding-bottom: 2px;
+  height: 440px;
+  overflow-y: scroll;
+}
+.house .house-list .house-item {
+  position: relative;
+  margin: 5px 0;
+}
+.house .house-list .house-item .house-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  padding: 5px 10px;
+}
+.house .house-list .house-item .house-info .house-desc {
+  flex: 2;
+  font-weight: 600;
+}
+.house .house-list .house-item .house-info .house-type {
+  flex: 1;
+}
+.house .house-list .house-item .house-info .house-type .house-rent {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 4px 5px;
+}
+.house .house-list .house-item .house-info .house-type .house-price {
+  color: #ff5555;
+}
+/*# sourceMappingURL=./SearchList.css.map */

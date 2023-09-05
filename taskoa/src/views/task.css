@@ -1,0 +1,33 @@
+.task-box {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 800px;
+}
+.task-box .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #DDD;
+}
+.task-box .header .title {
+  font-size: 20px;
+  line-height: 50px;
+}
+.task-box .tag-box {
+  margin: 15px 0;
+}
+.task-box .tag-box .ant-tag {
+  margin-inline-end: 15px;
+  padding-inline: 20px;
+  border-radius: 0;
+  font-size: 14px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.task-box .ant-table-cell .ant-btn-link {
+  padding: 4px;
+}
+.task-box textarea {
+  resize: none;
+}
+/*# sourceMappingURL=./task.css.map */

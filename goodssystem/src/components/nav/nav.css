@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+}
+.nav .item {
+  flex: 1;
+}
+.nav .item .icon-wrapper {
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  padding: auto;
+  color: #333;
+}
+.nav .item .icon-wrapper .iconfont {
+  display: block;
+}
+.nav .Active .icon-wrapper {
+  color: #ff5555;
+}
+/*# sourceMappingURL=./nav.css.map */

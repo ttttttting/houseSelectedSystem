@@ -1,0 +1,42 @@
+.task-box{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 800px;
+
+    .header{
+        display: flex;
+        // 设置水平居中（用于flex布局）
+        justify-content: space-between;
+        // 设置垂直居中
+        align-items: center;
+        border-bottom: 1px solid #DDD;
+
+        .title{
+            font-size:20px;
+            line-height: 50px;
+        }
+    }
+
+    .tag-box{
+        margin:15px 0;
+        // 更改ant组件库中的样式
+        .ant-tag{
+            margin-inline-end: 15px;
+            padding-inline: 20px;
+            border-radius: 0;
+            font-size: 14px;
+            line-height: 30px;
+            // 设置网页浏览时用户鼠标指针的样式或图形形状，point光标为一只手
+            cursor:pointer;
+        }
+    }
+
+    .ant-table-cell{
+        .ant-btn-link{
+            padding: 4px;
+        }
+    }
+    textarea{
+        resize: none;
+    }
+}
